@@ -3,3 +3,13 @@ In our large community of developers and QA professionals, we constantly strive 
 
 We initiated a call to our community to try it out and provide hands-on feedback. Our goal was to share knowledge and experiences, uncover productivity hacks, streamline user onboarding, and ensure best practices and compliance.
 We wanted to turn the learning curve into a fun ride and make sure everyone was on the same page.
+
+
+
+Next, let's take a look at the practices and benefits of using Copilot, as summarized from our site, starting with the developers.
+
+Firstly, and most obviously, Copilot can significantly boost productivity. When working with Copilot, we can effortlessly generate code and script snippets after defining functions, between brackets, inside conditions, or whenever we start a new line. This works exceptionally well when function names are clear, comments are detailed, or the surrounding context is reasonable. This basic code contribution improves efficiency, especially when dealing with repetitive tasks like unit tests, freeing us from cumbersome condition coverage and data mocking.
+
+In addition, Copilot enhances code reliability. Trained on a vast scope of code from GitHub, it often suggests functions or implementations with low complexity in time and space. If we leave optimization hints in function names or comments, it provides optimized algorithms or approaches, improving code quality. Copilot adapts to our existing code and feedback, using consistent conventions and styles, which ensures better consistency and maintainability. This also results in fewer issues detected by tools like SonarQube or Checkmarx.
+
+Furthermore, Copilot serves as an excellent mentor for new frameworks or unfamiliar technical stacks, offering opportunities to discover and learn new techniques independently. Often, it’s a better choice than searching Google or Stack Overflow, as GPT has been trained on content from these sites. While its suggestions might sometimes be incorrect, they still provide valuable ideas and expand our implementation options.
