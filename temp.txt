@@ -22,3 +22,14 @@ Benefits and Practices: Discussion on the practical benefits and optimal practic
 Guidelines for Developers: Essential advice and recommendations for developers to maximize efficiency and accuracy while using Copilot.
 Use Case Demonstrations: Presentation of specific examples showcasing how Copilot can be used for code generation and analysis, complete with prompt illustrations.
 Q&A Session: Open forum for attendees to ask questions and discuss their thoughts or concerns about Copilot usage.
+
+
+
+
+With the site built and colleagues contributing feedback and practices, we can provide tailored recommendations for developers at various levels of experience in development and machine learning.
+
+For users without much experience with Copilot, the first step is to install and try it. You can review the practices summarized by early adopters on our website to gain a basic understanding of how and what Copilot can be used for in daily work. You might have concerns about its usage, the effort saved, or discomfort with the generated results. At this stage, we encourage you to seek help from more experienced users and provide feedback on our site. This will enrich the content we offer and make it easier for everyone to get hands-on with Copilot.
+
+For users with experience in using Copilot or a background in its mechanism and prompt engineering, we encourage you to incorporate more Copilot usage into your daily work. You can practice and improve using the examples collected by our colleagues on the site. While you may still have concerns about suggestion accuracy and result adoption, we suggest exploring our site to find best practices and tips from others. This will help you discover how to interact with Copilot more efficiently.
+
+For users familiar with how Copilot works, especially experts in NLP and LLM, your experience and knowledge would be incredibly valuable to our team and community. We encourage you to contribute your insights to our site, exploring more possibilities with this tool for our daily work and providing valuable suggestions. As a state-of-the-art LLM engineering product, Copilot still has many niche use cases that can greatly benefit developers. Your contributions will be a tremendous help to newcomers and the broader community.
