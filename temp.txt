@@ -37,3 +37,8 @@ For users familiar with how Copilot works, especially experts in NLP and LLM, yo
 
 With the rapid advancement of large language model (LLM) products, various industries are experiencing improvements in quality and productivity. GitHub Copilot is one such tool, specifically designed to assist programmers by offering intelligent code completion and suggestions.
 In case you're not familiar with Copilot, it's an innovative tool developed by GitHub based on OpenAI's GPT-3. Using prompt engineering, it provides real-time, inline code suggestions to enhance your coding experience.
+
+
+
+
+We often see people providing prompts with sequential headings like 1, 2, 3, 4. Organizing questions in a logical and structured manner helps language models provide detailed responses step-by-step. This approach not only results in a structured response but also enhances the quality of the response, especially for arithmetic or logical questions.
