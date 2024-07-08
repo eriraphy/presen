@@ -1,1 +1,59 @@
+-- This query calculates customer balances and formats the data as JSON objects.
+-- It uses a recursive CTE to calculate cumulative balances and a JSON function to format the data.
+-- Please provide a detailed explanation including:
+-- 1. The purpose of each CTE.
+-- 2. How the recursion works in the BalanceHierarchy CTE.
+-- 3. The use of JSON functions in the BalanceJSON CTE.
+-- 4. The final output and how it is ordered.
 
+WITH RECURSIVE BalanceHierarchy AS (
+    SELECT
+        c.customer_id,
+        c.customer_name,
+        p.payment_id,
+        p.payment_amount,
+        c.initial_balance + p.payment_amount AS cumulative_balance,
+        1 AS level
+    FROM
+        customers c
+    JOIN
+        payments p ON c.customer_id = p.customer_id
+    WHERE
+        p.payment_date = (SELECT MIN(payment_date) FROM payments WHERE customer_id = c.customer_id)
+    UNION ALL
+    SELECT
+        c.customer_id,
+        c.customer_name,
+        p.payment_id,
+        p.payment_amount,
+        bh.cumulative_balance + p.payment_amount AS cumulative_balance,
+        bh.level + 1 AS level
+    FROM
+        BalanceHierarchy bh
+    JOIN
+        payments p ON bh.customer_id = p.customer_id
+    WHERE
+        p.payment_date > (SELECT MIN(payment_date) FROM payments WHERE customer_id = bh.customer_id)
+),
+BalanceJSON AS (
+    SELECT
+        bh.customer_id,
+        bh.customer_name,
+        bh.payment_id,
+        JSON_OBJECT(
+            'customer_id', bh.customer_id,
+            'name', bh.customer_name,
+            'payment_id', bh.payment_id,
+            'payment_amount', bh.payment_amount,
+            'cumulative_balance', bh.cumulative_balance,
+            'level', bh.level
+        ) AS balance_info
+    FROM
+        BalanceHierarchy bh
+)
+SELECT
+    bj.balance_info
+FROM
+    BalanceJSON bj
+ORDER BY
+    JSON_EXTRACT(bj.balance_info, '$.customer_id'), JSON_EXTRACT(bj.balance_info, '$.level');
