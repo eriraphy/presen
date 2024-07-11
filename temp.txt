@@ -42,3 +42,18 @@ In case you're not familiar with Copilot, it's an innovative tool developed by G
 
 
 We often see people providing prompts with sequential headings like 1, 2, 3, 4. Organizing questions in a logical and structured manner helps language models provide detailed responses step-by-step. This approach not only results in a structured response but also enhances the quality of the response, especially for arithmetic or logical questions.
+
+
+1. Our QA team and I have also conducted some practice sessions in the testing area.
+
+2. I must admit that our Copilot working group had the same questions initially.
+
+3. That's why we believe it's important to create a reference book. It provides a wealth of useful information, covering installation, onboarding, foundational usage, best practices, and numerous use cases. This resource should help you become familiar with Copilot more quickly.
+
+4. My suggestion is to keep trying and seek help from others. Be patient with both yourself and Copilot, and you will get there soon. Continue with your current efforts and discuss different ideas with others. Gradually, you'll find an effective way to interact with Copilot, gaining more confidence as you practice.
+
+Research and explore more. Your contributions will be a valuable asset to the reference book and benefit the whole group. Regardless of your current stage, keep practicing and exploring. Eventually, Copilot will become a great partner in various areas.
+
+In the short term, please don't overestimate Copilot; it's not a magic tool. But in the long term, don't underestimate it; it will bring significant changes to your life and work.
+
+We hope you can start your Copilot journey right after this session, and we want Copilot to be a great helper for you. Please practice using the reference book. If you encounter any difficulties or have questions, let us know. All comments are welcome. Let's work together to make it more comprehensive.
