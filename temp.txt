@@ -57,3 +57,5 @@ Research and explore more. Your contributions will be a valuable asset to the re
 In the short term, please don't overestimate Copilot; it's not a magic tool. But in the long term, don't underestimate it; it will bring significant changes to your life and work.
 
 We hope you can start your Copilot journey right after this session, and we want Copilot to be a great helper for you. Please practice using the reference book. If you encounter any difficulties or have questions, let us know. All comments are welcome. Let's work together to make it more comprehensive.
+
+We've compiled all the useful information into a reference book, which we hope will serve as the starting point for your Copilot journey. It offers great tips and practical examples that everyone can benefit from and contribute to in turn.
